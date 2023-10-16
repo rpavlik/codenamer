@@ -1,8 +1,8 @@
 var categories = {
-  "si_prefixes": {
-    "name": "SI Prefixes",
-    "source": "http://en.wikipedia.org/wiki/Metric_prefix",
-    "values": [
+  si_prefixes: {
+    name: "SI Prefixes",
+    source: "http://en.wikipedia.org/wiki/Metric_prefix",
+    values: [
       "yotta",
       "zetta",
       "exa",
@@ -22,13 +22,13 @@ var categories = {
       "femto",
       "atto",
       "zepto",
-      "yocto"
-    ]
+      "yocto",
+    ],
   },
-  "si_units": {
-    "name": "SI Units",
-    "source": "http://en.wikipedia.org/wiki/Outline_of_the_metric_system",
-    "values": [
+  si_units: {
+    name: "SI Units",
+    source: "http://en.wikipedia.org/wiki/Outline_of_the_metric_system",
+    values: [
       "Abampere",
       "Abcoulomb",
       "Abhenry",
@@ -100,13 +100,13 @@ var categories = {
       "Tonne",
       "Volt",
       "Watt",
-      "Weber"
-    ]
+      "Weber",
+    ],
   },
-  "elements": {
-    "name": "Chemical Elements",
-    "source": "https://en.wikipedia.org/wiki/List_of_elements",
-    "values": [
+  elements: {
+    name: "Chemical Elements",
+    source: "https://en.wikipedia.org/wiki/List_of_elements",
+    values: [
       "Hydrogen",
       "Helium",
       "Lithium",
@@ -224,13 +224,13 @@ var categories = {
       "Ununpentium",
       "Livermorium",
       "Ununseptium",
-      "Ununoctium"
-    ]
+      "Ununoctium",
+    ],
   },
-  "colors": {
-    "name": "Colors (Basic)",
-    "source": "https://simple.wikipedia.org/wiki/List_of_colors",
-    "values": [
+  colors: {
+    name: "Colors (Basic)",
+    source: "https://simple.wikipedia.org/wiki/List_of_colors",
+    values: [
       "Beige",
       "Black",
       "Blue",
@@ -252,13 +252,13 @@ var categories = {
       "Silver",
       "Violet",
       "White",
-      "Yellow"
-    ]
+      "Yellow",
+    ],
   },
-  "colors_extended": {
-    "name": "Colors (Extended)",
-    "source": "https://simple.wikipedia.org/wiki/List_of_colors",
-    "values": [
+  colors_extended: {
+    name: "Colors (Extended)",
+    source: "https://simple.wikipedia.org/wiki/List_of_colors",
+    values: [
       "Amaranth",
       "Amber",
       "Amethyst",
@@ -343,13 +343,13 @@ var categories = {
       "Violet",
       "Viridian",
       "White",
-      "Yellow"
-    ]
+      "Yellow",
+    ],
   },
-  "us_state_flowers": {
-    "name": "US State Flowers",
-    "source": "http://en.wikipedia.org/wiki/List_of_U.S._state_flowers",
-    "values": [
+  us_state_flowers: {
+    name: "US State Flowers",
+    source: "http://en.wikipedia.org/wiki/List_of_U.S._state_flowers",
+    values: [
       "Camellia",
       "Oak-leaf hydrangea",
       "Forget-me-not",
@@ -409,13 +409,13 @@ var categories = {
       "American Dogwood",
       "Coast Rhododendron",
       "Rhododendron",
-      "Wood Violet"
-    ]
+      "Wood Violet",
+    ],
   },
-  "common_asians_names": {
-    "name": "Common Asian Names",
-    "source": "http://en.wikipedia.org/wiki/List_of_common_Chinese_surnames",
-    "values": [
+  common_asians_names: {
+    name: "Common Asian Names",
+    source: "http://en.wikipedia.org/wiki/List_of_common_Chinese_surnames",
+    values: [
       "Lee",
       "Chen",
       "Wong",
@@ -437,13 +437,14 @@ var categories = {
       "Zhang",
       "Lam",
       "Leung",
-      "Ho"
-    ]
+      "Ho",
+    ],
   },
-  "impressive_chemistry": {
-    "name": "Impressive Chemical Names",
-    "source": "http://chemistry.about.com/od/chemicaldatabases/a/Chemical-Names-Of-Common-Substances.htm",
-    "values": [
+  impressive_chemistry: {
+    name: "Impressive Chemical Names",
+    source:
+      "http://chemistry.about.com/od/chemicaldatabases/a/Chemical-Names-Of-Common-Substances.htm",
+    values: [
       "keton",
       "bisulfate",
       "acid",
@@ -495,13 +496,13 @@ var categories = {
       "tetraoxide",
       "acetat",
       "binoxalate",
-      "dilut"
-    ]
+      "dilut",
+    ],
   },
-  "fish": {
-    "name": "Fish and Shellfish",
-    "source": "http://www.schmidtzeevis.nl/html/fish_names_in_7_languages.html",
-    "values": [
+  fish: {
+    name: "Fish and Shellfish",
+    source: "http://www.schmidtzeevis.nl/html/fish_names_in_7_languages.html",
+    values: [
       "Anchovy",
       "Perch",
       "Flounder",
@@ -592,13 +593,14 @@ var categories = {
       "clam",
       "Carpet Shell",
       "Hard Clam",
-      "Whelk"
-    ]
+      "Whelk",
+    ],
   },
-  "endangered_species": {
-    "name": "Endangered Species",
-    "source": "http://worldwildlife.org/species/directory?sort=extinction_status&direction=desc",
-    "values": [
+  endangered_species: {
+    name: "Endangered Species",
+    source:
+      "http://worldwildlife.org/species/directory?sort=extinction_status&direction=desc",
+    values: [
       "Amur Leopard",
       "Black Rhino",
       "Cross River Gorilla",
@@ -694,13 +696,14 @@ var categories = {
       "Seals",
       "Shark",
       "Tree Kangaroo",
-      "Tuna"
-    ]
+      "Tuna",
+    ],
   },
-  "squamata": {
-    "name": "Scaled Reptiles Families",
-    "source": "http://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427e7mnphgro3c",
-    "values": [
+  squamata: {
+    name: "Scaled Reptiles Families",
+    source:
+      "http://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427e7mnphgro3c",
+    values: [
       "Agamidae",
       "Amphisbaenia",
       "Amphisbaenidae",
@@ -732,13 +735,14 @@ var categories = {
       "Xantusiidae",
       "Xenosauridae",
       "Henophidia",
-      "Xenophidia"
-    ]
+      "Xenophidia",
+    ],
   },
-  "us_copycats_counties": {
-    "name": "Some US Counties",
-    "source": "http://en.wikipedia.org/wiki/List_of_U.S._counties_named_after_other_U.S._counties",
-    "values": [
+  us_copycats_counties: {
+    name: "Some US Counties",
+    source:
+      "http://en.wikipedia.org/wiki/List_of_U.S._counties_named_after_other_U.S._counties",
+    values: [
       "Albany",
       "Champaign",
       "Christian",
@@ -754,13 +758,14 @@ var categories = {
       "Richland",
       "Williamson",
       "Woodford",
-      "York"
-    ]
+      "York",
+    ],
   },
-  "national_capitals": {
-    "name": "National Capitals",
-    "source": "http://en.wikipedia.org/wiki/List_of_national_capitals_in_alphabetical_order",
-    "values": [
+  national_capitals: {
+    name: "National Capitals",
+    source:
+      "http://en.wikipedia.org/wiki/List_of_national_capitals_in_alphabetical_order",
+    values: [
       "Abu Dhabi",
       "Abuja",
       "Accra",
@@ -1014,13 +1019,14 @@ var categories = {
       "Yaoundé",
       "Yaren",
       "Yerevan",
-      "Zagreb"
-    ]
+      "Zagreb",
+    ],
   },
-  "cats": {
-    "name": "Cats",
-    "source": "http://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427emme6ununpd",
-    "values": [
+  cats: {
+    name: "Cats",
+    source:
+      "http://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427emme6ununpd",
+    values: [
       "Chausie",
       "British Longhair",
       "Maine Coon",
@@ -1090,13 +1096,13 @@ var categories = {
       "Japanese Bobtail",
       "Devon Rex",
       "Colorpoint Shorthair",
-      "Singapura"
-    ]
+      "Singapura",
+    ],
   },
-  "jazz_first": {
-    "name": "Jazz Firstnames",
-    "source": "https://en.wikipedia.org/wiki/List_of_jazz_musicians",
-    "values": [
+  jazz_first: {
+    name: "Jazz Firstnames",
+    source: "https://en.wikipedia.org/wiki/List_of_jazz_musicians",
+    values: [
       "Scott",
       "Charles",
       "Duke",
@@ -1122,13 +1128,13 @@ var categories = {
       "Gerry",
       "Chet",
       "Ornette",
-      "Wynton"
-    ]
+      "Wynton",
+    ],
   },
-  "jazz_last": {
-    "name": "Jazz Lastnames",
-    "source": "https://en.wikipedia.org/wiki/List_of_jazz_musicians",
-    "values": [
+  jazz_last: {
+    name: "Jazz Lastnames",
+    source: "https://en.wikipedia.org/wiki/List_of_jazz_musicians",
+    values: [
       "Joplin",
       "Bolden",
       "Ellington",
@@ -1154,13 +1160,13 @@ var categories = {
       "Mulligan",
       "Baker",
       "Coleman",
-      "Marsalis"
-    ]
+      "Marsalis",
+    ],
   },
-  "blues_names": {
-    "name": "Blues Nicknames",
-    "source": "http://www.outliermusic.com/jokes_bluesname.htm",
-    "values": [
+  blues_names: {
+    name: "Blues Nicknames",
+    source: "http://www.outliermusic.com/jokes_bluesname.htm",
+    values: [
       "Bones",
       "Money",
       "Harp",
@@ -1239,13 +1245,13 @@ var categories = {
       "Johnson",
       "Blue",
       "Allison",
-      "Huh"
-    ]
+      "Huh",
+    ],
   },
-  "flowers": {
-    "name": "Flowers",
-    "source": "http://www.whatiscalled.com/flower-names-in-all-languages/",
-    "values": [
+  flowers: {
+    name: "Flowers",
+    source: "http://www.whatiscalled.com/flower-names-in-all-languages/",
+    values: [
       "Arabian Jasmine",
       "Lily",
       "Buttercups",
@@ -1322,13 +1328,13 @@ var categories = {
       "Grandiflora",
       "Zucchini",
       "Aurantiaca",
-      "Alba"
-    ]
+      "Alba",
+    ],
   },
-  "animals": {
-    "name": "Animals",
-    "source": "http://tamilcube.com/res/indian_animals.html",
-    "values": [
+  animals: {
+    name: "Animals",
+    source: "http://tamilcube.com/res/indian_animals.html",
+    values: [
       "Ant",
       "Bear",
       "Buffalo",
@@ -1370,13 +1376,13 @@ var categories = {
       "Squirrel",
       "Tiger",
       "Turtle",
-      "Wolf"
-    ]
+      "Wolf",
+    ],
   },
-  "imperial": {
-    "name": "Imperial Units",
-    "source": "http://wiki.answers.com/Q/List_of_imperial_units",
-    "values": [
+  imperial: {
+    name: "Imperial Units",
+    source: "http://wiki.answers.com/Q/List_of_imperial_units",
+    values: [
       "pound",
       "ounce",
       "thou",
@@ -1406,13 +1412,14 @@ var categories = {
       "stone",
       "quarter",
       "hundredweight",
-      "ton"
-    ]
+      "ton",
+    ],
   },
-  "california_cities": {
-    "name": "Californian Cities",
-    "source": "http://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427eue1f1uq3b4",
-    "values": [
+  california_cities: {
+    name: "Californian Cities",
+    source:
+      "http://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427eue1f1uq3b4",
+    values: [
       "Bakersfield",
       "Anaheim",
       "Santa Ana",
@@ -1570,13 +1577,14 @@ var categories = {
       "Cathedral",
       "Watsonville",
       "Placentia",
-      "Glendora"
-    ]
+      "Glendora",
+    ],
   },
-  "metals": {
-    "name": "Metals",
-    "source": "http://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427e48dr7di6c2",
-    "values": [
+  metals: {
+    name: "Metals",
+    source:
+      "http://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427e48dr7di6c2",
+    values: [
       "lithium",
       "beryllium",
       "sodium",
@@ -1670,13 +1678,13 @@ var categories = {
       "ununtrium",
       "flerovium",
       "ununpentium",
-      "livermorium"
-    ]
+      "livermorium",
+    ],
   },
-  "dogs": {
-    "name": "Dog Breeds",
-    "source": "https://en.wikipedia.org/wiki/List_of_most_popular_dog_breeds",
-    "values": [
+  dogs: {
+    name: "Dog Breeds",
+    source: "https://en.wikipedia.org/wiki/List_of_most_popular_dog_breeds",
+    values: [
       "Labrador",
       "Retriever",
       "Cocker Spaniel",
@@ -1717,13 +1725,13 @@ var categories = {
       "Doberman Pinscher",
       "Welsh Corgi",
       "Miniature Pinscher",
-      "Basset Hound"
-    ]
+      "Basset Hound",
+    ],
   },
-  "animal_babies": {
-    "name": "Animal Babies",
-    "source": "https://en.wikipedia.org/wiki/List_of_animal_names",
-    "values": [
+  animal_babies: {
+    name: "Animal Babies",
+    source: "https://en.wikipedia.org/wiki/List_of_animal_names",
+    values: [
       "cub",
       "chick",
       "hatchling",
@@ -1812,13 +1820,14 @@ var categories = {
       "flapper",
       "toadlet",
       "poult",
-      "wormlet"
-    ]
+      "wormlet",
+    ],
   },
-  "kingdom_animalia": {
-    "name": "Kingdom Animalia",
-    "source": "http://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427ekhnrbufb4a",
-    "values": [
+  kingdom_animalia: {
+    name: "Kingdom Animalia",
+    source:
+      "http://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427ekhnrbufb4a",
+    values: [
       "Acanthocephala",
       "Annelida",
       "Arthropoda",
@@ -1846,13 +1855,14 @@ var categories = {
       "Porifera",
       "Rotifera",
       "Sipuncula",
-      "Tardigrada"
-    ]
+      "Tardigrada",
+    ],
   },
-  "greek_gods": {
-    "name": "Greek Gods",
-    "source": "https://simple.wikipedia.org/wiki/List_of_Greek_gods_and_goddesses",
-    "values": [
+  greek_gods: {
+    name: "Greek Gods",
+    source:
+      "https://simple.wikipedia.org/wiki/List_of_Greek_gods_and_goddesses",
+    values: [
       "Chaos",
       "Erebus",
       "Gaia",
@@ -1885,13 +1895,14 @@ var categories = {
       "Demeter",
       "Dionysus",
       "Hephaestus",
-      "Hermes"
-    ]
+      "Hermes",
+    ],
   },
-  "greek_titans": {
-    "name": "Greek Titans",
-    "source": "https://simple.wikipedia.org/wiki/List_of_Greek_gods_and_goddesses",
-    "values": [
+  greek_titans: {
+    name: "Greek Titans",
+    source:
+      "https://simple.wikipedia.org/wiki/List_of_Greek_gods_and_goddesses",
+    values: [
       "Koios",
       "Kreios",
       "Kronos",
@@ -1911,13 +1922,14 @@ var categories = {
       "Asteria",
       "Perses",
       "Asterious",
-      "Dione"
-    ]
+      "Dione",
+    ],
   },
-  "us_submarines": {
-    "name": "US Submarine Classes",
-    "source": "https://en.wikipedia.org/wiki/List_of_submarine_classes_of_the_United_States_Navy",
-    "values": [
+  us_submarines: {
+    name: "US Submarine Classes",
+    source:
+      "https://en.wikipedia.org/wiki/List_of_submarine_classes_of_the_United_States_Navy",
+    values: [
       "Alligator",
       "Holland",
       "Plunger",
@@ -1956,13 +1968,13 @@ var categories = {
       "Narwhal",
       "Ohio",
       "Seawolf",
-      "Virginia"
-    ]
+      "Virginia",
+    ],
   },
-  "german_words": {
-    "name": "German Words",
-    "source": "http://pascalhertleif.de/",
-    "values": [
+  german_words: {
+    name: "German Words",
+    source: "http://pascalhertleif.de/",
+    values: [
       "Vogel",
       "Topf",
       "Mond",
@@ -2015,13 +2027,14 @@ var categories = {
       "Mut",
       "Freude",
       "Einwand",
-      "Flaschenpost"
-    ]
+      "Flaschenpost",
+    ],
   },
-  "common_german_words": {
-    "name": "Common German Words",
-    "source": "http://frequencylists.blogspot.com/2015/12/the-2000-most-frequent-german-nouns.html",
-    "values": [
+  common_german_words: {
+    name: "Common German Words",
+    source:
+      "http://frequencylists.blogspot.com/2015/12/the-2000-most-frequent-german-nouns.html",
+    values: [
       "Abend",
       "Abendessen",
       "Abenteuer",
@@ -3710,13 +3723,13 @@ var categories = {
       "Zweifel",
       "Zweite",
       "Zwielicht",
-      "Zwilling"
-    ]
+      "Zwilling",
+    ],
   },
-  "landforms": {
-    "name": "Landforms",
-    "source": "https://en.wikipedia.org/wiki/List_of_landforms",
-    "values": [
+  landforms: {
+    name: "Landforms",
+    source: "https://en.wikipedia.org/wiki/List_of_landforms",
+    values: [
       "Abîme",
       "Abyssal fan",
       "Abyssal plain",
@@ -4041,13 +4054,14 @@ var categories = {
       "Waterfall",
       "Watershed",
       "Wave-cut platform",
-      "Yazoo stream"
-    ]
+      "Yazoo stream",
+    ],
   },
-  "adjectives_en": {
-    "name": "English Adjectives",
-    "source": "https://grammar.yourdictionary.com/parts-of-speech/adjectives/list-of-adjective-words.html",
-    "values": [
+  adjectives_en: {
+    name: "English Adjectives",
+    source:
+      "https://grammar.yourdictionary.com/parts-of-speech/adjectives/list-of-adjective-words.html",
+    values: [
       "Adorable",
       "Adventurous",
       "Aggressive",
@@ -4275,13 +4289,13 @@ var categories = {
       "Worrisome",
       "Wrong",
       "Zany",
-      "Zealous"
-    ]
+      "Zealous",
+    ],
   },
-  "gemstones": {
-    "name": "Gemstones",
-    "source": "https://www.gemsociety.org/gemstone-encyclopedia/",
-    "values": [
+  gemstones: {
+    name: "Gemstones",
+    source: "https://www.gemsociety.org/gemstone-encyclopedia/",
+    values: [
       "Actinolite",
       "Adamite",
       "Agate",
